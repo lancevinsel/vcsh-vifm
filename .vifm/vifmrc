@@ -128,17 +128,3 @@ set timefmt=\ %m/%d\ %H:%M
 " set vifminfo=options,filetypes,commands,bookmarks,tui,state,cs,chistory,shistory,dirstack,registers,phistory
 " Like in vi
 set vifminfo=bookmarks,chistory,shistory,phistory
-
-" use :Q to exit into the current pane directory
-" you need to add an alias to .bashrc or .zshrc:
-" 	alias vifm ='source ~/bin/vf'
-" and put the following script into ~/bin/vf and make it executable
-"	if [ -f ~/.vifm/lastdir ]; then
-"		rm ~/.vifm/lastdir
-"	fi
-"	/usr/local/bin/vifm "$@"
-"	if [ -f ~/.vifm/lastdir ]; then
-"		cd cat ~/.vifm/lastdir
-"	fi
-" and then add the following line below
-command Q :execute '!echo %d > ~/.vifm/lastdir' | quit
