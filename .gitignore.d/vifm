@@ -3,3 +3,4 @@
 !/.gitignore.d/vifm
 !/.vifm/*
 !/.vifm/vifmrc
+!/.vifm/colors/*
