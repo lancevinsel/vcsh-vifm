@@ -2,3 +2,8 @@
 !/.gitignore.d
 !/.gitignore.d/vifm
 !/.vifm/vifmrc
+<<<<<<< HEAD
+!/.vifm/colors/*
+.vifm/vifminfo
+=======
+>>>>>>> fc6cd20c506a68895c94465f834a4418b41887e3
